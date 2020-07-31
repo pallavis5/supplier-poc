@@ -41,8 +41,6 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 	protected void configure(HttpSecurity httpSecurity) throws Exception {
 		httpSecurity.csrf().disable().httpBasic().and().authorizeRequests().antMatchers("/supplier/addSupplier/{supplierId}").permitAll()
 				.antMatchers(HttpMethod.OPTIONS, "/**").permitAll().antMatchers("/supplier").permitAll()
-				.antMatchers(HttpMethod.OPTIONS, "/**").permitAll().antMatchers("/deliveryOrder").permitAll()
-				.antMatchers(HttpMethod.OPTIONS, "/**").permitAll().antMatchers("/reviewOrder").permitAll()
 				.antMatchers(HttpMethod.OPTIONS, "/**").permitAll().anyRequest().authenticated()
 				.and().addFilter(new JwtAuthorizationFilter(authenticationManager()));
 
