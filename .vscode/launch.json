@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ConfigServerApplication",
+            "request": "launch",
+            "mainClass": "com.cognizant.configserver.ConfigServerApplication",
+            "projectName": "config-server"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-EurekaDiscoveryServerApplication<EurekaDiscoveryServer>",
+            "request": "launch",
+            "mainClass": "com.cognizant.eurekadiscoveryserver.EurekaDiscoveryServerApplication",
+            "projectName": "EurekaDiscoveryServer"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-AuthenticationServiceApplication<authentication-service>",
+            "request": "launch",
+            "mainClass": "com.cognizant.authenticationservice.AuthenticationServiceApplication",
+            "projectName": "authentication-service"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-OrderServiceApplication<order-service>",
+            "request": "launch",
+            "mainClass": "com.cognizant.orderservice.OrderServiceApplication",
+            "projectName": "order-service"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ProductServiceApplication<product-springboot-auto>",
+            "request": "launch",
+            "mainClass": "product.spring.boot.autoconfigure.ProductServiceApplication",
+            "projectName": "product-springboot-auto"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SupplierServiceApplication<supplier-service>",
+            "request": "launch",
+            "mainClass": "com.cognizant.supplierservice.SupplierServiceApplication",
+            "projectName": "supplier-service"
+        }
+    ]
+}
