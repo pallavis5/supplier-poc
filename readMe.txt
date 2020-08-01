@@ -8,8 +8,8 @@ Customer-Supplier Application:
 	3. Also, the concepts of Eureka Server, Config Server, proper logging, lombok and Swagger has been used.
 
 Execution Flow of Microservices:
-	1.config-server
-	2.EurekaDiscoveryServer
+	1.EurekaDiscoveryServer
+	2.config-server
 	3.authentication-service
 	4.supplier-service
 
